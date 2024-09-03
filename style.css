@@ -1,0 +1,182 @@
+body {
+    background: rgb(68, 68, 68);
+    color: rgb(22, 47, 80);
+    margin: 5px;
+
+}
+
+header {
+    border-bottom: solid 5px rgb(163, 163, 163);
+    padding: 12px;
+    font-size: 8px;
+    color: rgb(0, 0, 0);
+
+}
+
+.título {
+    font-family: "Exo 2", sans-serif;
+
+}
+
+.psicologia-explicada {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: rgb(0, 0, 0);
+    font-family: "Exo 2", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    padding-top: 5px;
+    height: 70px;
+
+}
+
+.margem {
+    font-size: 5px;
+    background-color: rgb(163, 163, 163);
+}
+
+.conceito-básico {
+    font-family: "nunito", sans-serif;
+    background-color: rgb(100, 100, 100);
+}
+
+.parte-1 {
+    background-color: rgb(100, 100, 100);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "nunito", sans-serif;
+
+}
+
+.Denifição {
+    margin-right: 5%;
+
+}
+
+.Vídeo {
+    margin-left: 15%;
+}
+
+
+
+.diferentes-áreas {
+    font-family: "nunito", sans-serif;
+    background-color: rgb(100, 100, 100);
+    color: rgb(211, 99, 22);
+}
+
+.áreas {
+    height: 350px;
+    border: 1rem solid;
+    border-color: rgb(163, 163, 163);
+
+}
+
+.questionário {
+    background-color: rgb(163, 163, 163);
+    font-family: "nunito", sans-serif;
+
+}
+
+.título {
+    font-family: "nunito", sans-serif;
+    background-color: rgb(100, 100, 100);
+    color: rgb(211, 99, 22)
+
+}
+
+/* perguntas*/
+
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options label {
+    cursor: pointer;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(22, 47, 80);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: rgb(22, 47, 80);
+}
+
+/* mensagem pós resposta*/
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4CAF50; /* Cor do texto */
+    display: none; /* Inicialmente oculto */
+    background-color: #e8f5e9; /* Fundo verde claro */
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-left: 5px solid #388e3c; /* Barra verde na esquerda */
+    font-weight: bold; /* Negrito */
+    text-align: center; /* Centralizar o texto */
+    animation: fadeIn 0.5s ease-in-out; /* Animação de fade-in */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*finalização do site */
+ 
+.contact-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.social-media .contact-item {
+    flex: 1;
+}
+
+.contact-item span {
+    font-size: 16px;
+    color: #333;
+}
